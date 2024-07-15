@@ -1,0 +1,25 @@
+.fs-crud-container {
+	.el-table thead {
+		color: #606266;
+	}
+	.el-input__inner::placeholder {
+		color: #dcdfe6;
+		font-size: 12px;
+	}
+}
+.el-input__suffix {
+  position: absolute;
+  right: 6px;
+  top: 0px;
+}
+.el-page-header__back {
+	color: #1492FF;
+}
+
+.el-page-header__main{
+	display: none;
+
+}
+.el-popper{
+	max-width: 70%;
+}
