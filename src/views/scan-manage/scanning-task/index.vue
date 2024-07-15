@@ -36,7 +36,7 @@
       </el-row>
       <div class="form-container">
         <div class="form-title">
-          <h3>扫描任务</h3>
+          <h3>扫描任务wrj</h3>
           <div class="button-box">
             <el-button type="primary"
                        link
@@ -51,10 +51,6 @@
             <el-button @click="resetFn"
                        plain
                        icon="RefreshRight">重 置</el-button>
-
-            <!-- <el-button @click="isShow = !isShow" :icon="isShow ? 'ArrowUpBold' : 'ArrowDownBold'">
-							{{ isShow ? '收起' : '展开' }}
-						</el-button> -->
           </div>
         </div>
         <!-- 筛选条件 -->
@@ -67,13 +63,13 @@
                         clearable
                         style="width: 240px" />
             </el-form-item>
-            <!-- <el-form-item label="任务类型">
+            <el-form-item label="任务类型wrj">
 							<el-select v-model="params.scan_type" placeholder="请选择" style="width: 240px">
 								<el-option label="资产扫描" :value="1" />
 								<el-option label="漏洞扫描" :value="2" />
 								<el-option label="WEB扫描" :value="3" />
 							</el-select>
-						</el-form-item> -->
+						</el-form-item>
             <el-form-item label="运行状态">
               <el-select v-model="params.status"
                          placeholder="请选择"

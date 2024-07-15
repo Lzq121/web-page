@@ -41,7 +41,7 @@
                         v-if="index === 0 && isTips">
               <template #content>
                 <div style="position: relative">
-                  <h3>漏洞ID生成规则</h3>
+                  <h3>漏洞ID生成规则wrj</h3>
                   <p>
                     <来源+导入日期+自定义序号>
                   </p>
@@ -56,7 +56,7 @@
                         v-if="index === 1 && isTips">
               <template #content>
                 <div style="position: relative">
-                  <h3>漏洞名称展示规则</h3>
+                  <h3>漏洞名称展示规则11</h3>
                   <p>① 来源:漏洞别名为非必填项;</p>
                   <p>②展示规则:列表中，如果漏洞别名不为空，则优先显示别名，否则展示漏洞名称;</p>
                 </div>
