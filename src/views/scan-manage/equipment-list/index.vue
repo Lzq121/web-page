@@ -61,6 +61,12 @@ const getTableData = async () => {
 		regionOption.forEach((i) => {
 			item.room == i.value ? (item.room = i.label) : i.value;
 		});
+		regionqy.forEach((i) => {
+			item.network_area == i.value ? (item.network_area = i.label) : i.value;
+		});
+		regionOption.forEach((i) => {
+			item.room == i.value ? (item.room = i.label) : i.value;
+		});
 		departmentOption.forEach((i) => {
 			item.data_center == i.value ? (item.data_center = i.label) : i.value;
 		});
