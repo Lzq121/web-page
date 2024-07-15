@@ -51,6 +51,10 @@
             <el-button @click="resetFn"
                        plain
                        icon="RefreshRight">重 置</el-button>
+
+            <el-button @click="isShow = !isShow" :icon="isShow ? 'ArrowUpBold' : 'ArrowDownBold'">
+							{{ isShow ? '收起' : '展开' }}
+						</el-button>
           </div>
         </div>
         <!-- 筛选条件 -->
@@ -91,11 +95,11 @@
         <el-radio-group v-model="params.scan_type"
                         @change="GetList">
           <el-radio-button label="漏洞扫描"
-                           value="2" />
+                           value="21" />
           <el-radio-button label="资产扫描"
-                           value="1" />
+                           value="11" />
           <el-radio-button label="web扫描"
-                           value="3" />
+                           value="31" />
         </el-radio-group>
       </div>
 
